@@ -1,0 +1,1 @@
+UPDATE contacts SET first_name = "steve" , email = "sdoe@email.com" WHERE last_name = "Doe";
