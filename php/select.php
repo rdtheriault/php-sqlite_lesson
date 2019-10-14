@@ -1,5 +1,5 @@
 <?php
-$myPDO = new PDO('sqlite:sqlite/test.sqlite');
+$myPDO = new PDO('sqlite:test.sqlite');
 
 $result = $myPDO->query("SELECT * FROM contacts");
 
