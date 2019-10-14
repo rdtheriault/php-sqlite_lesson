@@ -1,0 +1,3 @@
+SELECT * FROM contacts;
+SELECT * FROM contacts WHERE last_name = "Doe";
+SELECT first_name, email FROM contacts WHERE last_name = "Doe";
